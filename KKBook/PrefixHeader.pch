@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  KKBooK
+//
+//  Created by PromptNow on 10/29/2557 BE.
+//  Copyright (c) 2557 GLive. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "BaseViewController.h"
+#import "Macro.h"
+#import "Utility.h"
+#import "KKBookURL.h"
+#import "KKBookService.h"
+#import "UIFont+KKBook.h"
+#import "UIColor+KKBook.h"
+#import "AppDelegate.h"
+#import "NSString+SCBString.h"
+#import "Utils.h"
+
+#endif
+
+
+//#ifndef KKBooK_PrefixHeader_pch
+//#define KKBooK_PrefixHeader_pch
+//
+//#import <UIKit/UIKit.h>
+//#import "BaseViewController.h"
+//#import "Macro.h"
+//#import "Utility.h"
+//#import "KKBookURL.h"
+//#import "KKBookService.h"
+//#import "UIFont+Custom.h"
+//
+//#endif
